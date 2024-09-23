@@ -18,7 +18,7 @@ struct HomeView: View {
         .init(title: "Watch a Game", status: .working)
     ]
     @State private var completed: [Task] = [
-        .init(title: "See Cruzeiro", status: .completed),
+        .init(title: "Make an App", status: .completed),
         .init(title: "New Task", status: .completed)
     ]
     @State private var currentlyDragging: Task?
@@ -87,7 +87,6 @@ struct HomeView: View {
                     }
                 }
             }
-
     }
     
     func appendTask(_ status: Status) {
